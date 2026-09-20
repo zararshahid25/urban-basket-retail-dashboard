@@ -1,0 +1,7 @@
+order_item_id,order_id,product_id,quantity,unit_price,discount_pct,line_revenue,line_cost,issue
+4237,UB-001883,28,99,894.38,10.0,3219.77,2693.0,Quantity outside accepted range 1–20
+6735,UB-002993,1,0,301.22,5.0,572.32,420.62,Quantity outside accepted range 1–20
+8858,UB-003923,116,0,762.43,20.0,1219.89,997.12,Quantity outside accepted range 1–20
+11981,UB-005349,24,0,92.79,0.0,92.79,61.51,Quantity outside accepted range 1–20
+13053,UB-005846,5,99,1386.9,15.0,3536.6,2616.75,Quantity outside accepted range 1–20
+18870,UB-008434,122,99,649.81,20.0,1559.54,1524.06,Quantity outside accepted range 1–20

@@ -1,0 +1,301 @@
+order_item_id,order_id,product_id,quantity,unit_price,discount_pct,line_revenue,line_cost,customer_id,order_date,order_status,sales_channel,shipping_city,courier_name,payment_method,promo_code,category_id,product_name,category_name
+1,UB-000001,128,1,177.95,0.0,177.95,141.91,C00340,2025-07-22,Completed,Marketplace,Karachi,BlueLine,Cash on Delivery,,8,Soap 1,Personal Care
+2,UB-000001,88,1,702.06,15.0,596.75,553.89,C00340,2025-07-22,Completed,Marketplace,Karachi,BlueLine,Cash on Delivery,,5,Sugar 3,Pantry
+3,UB-000002,82,5,1020.26,0.0,5101.3,3426.65,C00762,2025-05-16,Cancelled,Mobile App,Lahore,SwiftEx,Wallet,,5,Sugar 2,Pantry
+4,UB-000003,138,1,926.86,20.0,741.49,604.6,C00640,2024-09-06,Returned,Web,Peshawar,BlueLine,Card,APP5,8,Lotion 2,Personal Care
+5,UB-000003,30,1,1368.42,0.0,1368.42,865.11,C00640,2024-09-06,Returned,Web,Peshawar,BlueLine,Card,APP5,2,Cream 2,Dairy & Eggs
+6,UB-000003,110,2,951.69,0.0,1903.38,1358.68,C00640,2024-09-06,Returned,Web,Peshawar,BlueLine,Card,APP5,7,Laundry Powder 1,Household
+7,UB-000004,82,1,1047.31,0.0,1047.31,685.33,C00370,2024-06-25,Completed,Mobile App,Faisalabad,BlueLine,Wallet,,5,Sugar 2,Pantry
+8,UB-000005,49,2,979.72,10.0,1763.5,1228.08,C01275,2025-01-21,Completed,Web,Karachi,RapidGo,Cash on Delivery,SAVE15,3,White Bread 3,Bakery
+9,UB-000006,130,1,905.6,0.0,905.6,653.53,C00053,2024-08-05,Completed,Web,Lahore,SwiftEx,Card,,8,Face Wash 1,Personal Care
+10,UB-000007,47,2,107.92,0.0,215.84,174.96,C00927,2025-03-23,Completed,Web,Lahore,BlueLine,Cash on Delivery,,3,Burger Buns 2,Bakery
+11,UB-000008,95,2,473.28,0.0,946.56,739.6,C00423,2025-09-15,Completed,Mobile App,Karachi,SwiftEx,Wallet,SAVE15,6,Crackers 1,Snacks
+12,UB-000008,129,2,1178.21,0.0,2356.42,1533.7,C00423,2025-09-15,Completed,Mobile App,Karachi,SwiftEx,Wallet,SAVE15,8,Toothpaste 1,Personal Care
+13,UB-000008,39,3,868.85,20.0,2085.24,1842.21,C00423,2025-09-15,Completed,Mobile App,Karachi,SwiftEx,Wallet,SAVE15,3,Croissants 1,Bakery
+14,UB-000008,88,1,685.53,0.0,685.53,553.89,C00423,2025-09-15,Completed,Mobile App,Karachi,SwiftEx,Wallet,SAVE15,5,Sugar 3,Pantry
+15,UB-000009,63,1,249.68,5.0,237.2,167.23,C00423,2025-08-24,Cancelled,Mobile App,Karachi,RapidGo,Cash on Delivery,,4,Green Tea 2,Beverages
+16,UB-000009,103,2,893.32,0.0,1786.64,1363.04,C00423,2025-08-24,Cancelled,Mobile App,Karachi,RapidGo,Cash on Delivery,,6,Potato Chips 3,Snacks
+17,UB-000010,62,2,395.51,10.0,711.92,521.1,C01113,2025-05-06,Completed,Mobile App,Islamabad,BlueLine,Bank Transfer,SAVE15,4,Mineral Water 2,Beverages
+18,UB-000011,84,3,1268.73,0.0,3806.19,2436.36,C01258,2025-12-19,Completed,Web,Rawalpindi,RapidGo,Cash on Delivery,,5,Spices 2,Pantry
+19,UB-000011,46,1,215.09,0.0,215.09,167.81,C01258,2025-12-19,Completed,Web,Rawalpindi,RapidGo,Cash on Delivery,,3,Cupcakes 2,Bakery
+20,UB-000012,42,1,622.48,0.0,622.48,398.38,C00351,2025-07-12,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,,3,Cookies 1,Bakery
+21,UB-000012,59,1,290.84,0.0,290.84,241.88,C00351,2025-07-12,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,,4,Cola 1,Beverages
+22,UB-000013,95,2,485.93,0.0,971.86,739.6,C00370,2025-07-28,Completed,Marketplace,Faisalabad,BlueLine,Bank Transfer,SAVE15,6,Crackers 1,Snacks
+23,UB-000013,11,1,462.81,15.0,393.39,366.75,C00370,2025-07-28,Completed,Marketplace,Faisalabad,BlueLine,Bank Transfer,SAVE15,1,Onions 2,Fresh Produce
+24,UB-000013,4,1,789.98,10.0,710.98,608.34,C00370,2025-07-28,Completed,Marketplace,Faisalabad,BlueLine,Bank Transfer,SAVE15,1,Potatoes 1,Fresh Produce
+25,UB-000014,75,2,866.52,0.0,1733.04,1175.56,C00838,2025-05-04,Completed,Mobile App,Rawalpindi,SwiftEx,Card,SAVE15,5,Flour 1,Pantry
+26,UB-000015,9,3,675.98,5.0,1926.54,1505.07,C00625,2025-11-02,Returned,Mobile App,Islamabad,SwiftEx,Cash on Delivery,APP5,1,Tomatoes 2,Fresh Produce
+27,UB-000015,85,1,337.77,5.0,320.88,232.68,C00625,2025-11-02,Returned,Mobile App,Islamabad,SwiftEx,Cash on Delivery,APP5,5,Basmati Rice 3,Pantry
+28,UB-000015,58,4,578.18,5.0,2197.08,1426.24,C00625,2025-11-02,Returned,Mobile App,Islamabad,SwiftEx,Cash on Delivery,APP5,4,Coffee 1,Beverages
+29,UB-000016,102,2,1237.75,0.0,2475.5,1658.76,C00411,2024-01-01,Completed,Mobile App,Karachi,BlueLine,Card,,6,Granola Bars 2,Snacks
+30,UB-000016,136,1,1341.81,10.0,1207.63,866.98,C00411,2024-01-01,Completed,Mobile App,Karachi,BlueLine,Card,,8,Face Wash 2,Personal Care
+31,UB-000016,73,3,974.48,5.0,2777.27,1988.94,C00411,2024-01-01,Completed,Mobile App,Karachi,BlueLine,Card,,5,Basmati Rice 1,Pantry
+32,UB-000017,85,1,325.05,5.0,308.8,232.68,C00245,2025-11-27,Completed,Mobile App,Lahore,BlueLine,Cash on Delivery,,5,Basmati Rice 3,Pantry
+33,UB-000018,56,2,518.87,15.0,882.08,697.56,C00310,2025-07-13,Completed,Mobile App,Rawalpindi,Store Pickup,Card,,4,Mineral Water 1,Beverages
+34,UB-000018,23,5,880.49,0.0,4402.45,3137.7,C00310,2025-07-13,Completed,Mobile App,Rawalpindi,Store Pickup,Card,,2,Eggs 1,Dairy & Eggs
+35,UB-000019,80,4,402.52,0.0,1610.08,1210.32,C00520,2025-04-05,Completed,Web,Rawalpindi,BlueLine,Cash on Delivery,,5,Cooking Oil 2,Pantry
+36,UB-000020,126,2,1238.27,0.0,2476.54,1607.0,C00444,2024-01-18,Completed,Web,Faisalabad,Store Pickup,Bank Transfer,,7,Foil 3,Household
+37,UB-000021,41,1,919.25,0.0,919.25,743.96,C01273,2024-08-01,Completed,Mobile App,Islamabad,Store Pickup,Cash on Delivery,,3,Burger Buns 1,Bakery
+38,UB-000021,52,1,670.33,15.0,569.78,457.32,C01273,2024-08-01,Completed,Mobile App,Islamabad,Store Pickup,Cash on Delivery,,3,Cupcakes 3,Bakery
+39,UB-000022,37,4,1074.51,0.0,4298.04,3325.8,C00553,2024-02-18,Completed,Mobile App,Lahore,RapidGo,Card,,3,White Bread 1,Bakery
+40,UB-000022,71,1,186.96,0.0,186.96,122.07,C00553,2024-02-18,Completed,Mobile App,Lahore,RapidGo,Card,,4,Cola 3,Beverages
+41,UB-000023,47,5,108.92,10.0,490.14,437.4,C01185,2024-04-27,Completed,Web,Faisalabad,SwiftEx,Wallet,,3,Burger Buns 2,Bakery
+42,UB-000023,139,1,694.86,10.0,625.37,504.16,C01185,2024-04-27,Completed,Web,Faisalabad,SwiftEx,Wallet,,8,Shampoo 3,Personal Care
+43,UB-000023,1,1,306.36,5.0,291.04,210.31,C01185,2024-04-27,Completed,Web,Faisalabad,SwiftEx,Wallet,,1,Apples 1,Fresh Produce
+44,UB-000024,26,2,219.98,10.0,395.96,276.98,C01257,2025-05-01,Completed,Web,Rawalpindi,SwiftEx,Cash on Delivery,,2,Yogurt 2,Dairy & Eggs
+45,UB-000024,16,2,1082.67,0.0,2165.34,1632.76,C01257,2025-05-01,Completed,Web,Rawalpindi,SwiftEx,Cash on Delivery,,1,Potatoes 3,Fresh Produce
+46,UB-000025,72,2,997.77,5.0,1895.76,1483.2,C01340,2024-02-26,Completed,Marketplace,Karachi,Store Pickup,Cash on Delivery,,4,Mango Drink 3,Beverages
+47,UB-000025,50,2,428.82,0.0,857.64,655.38,C01340,2024-02-26,Completed,Marketplace,Karachi,Store Pickup,Cash on Delivery,,3,Brown Bread 3,Bakery
+48,UB-000025,78,4,773.4,0.0,3093.6,2179.0,C01340,2024-02-26,Completed,Marketplace,Karachi,Store Pickup,Cash on Delivery,,5,Spices 1,Pantry
+49,UB-000026,123,1,466.09,0.0,466.09,328.9,C00847,2025-12-04,Completed,Mobile App,Rawalpindi,SwiftEx,Cash on Delivery,FREESHIP,7,Tissues 3,Household
+50,UB-000026,105,4,1234.83,0.0,4939.32,3555.8,C00847,2025-12-04,Completed,Mobile App,Rawalpindi,SwiftEx,Cash on Delivery,FREESHIP,6,Chocolate 3,Snacks
+51,UB-000026,96,1,496.95,15.0,422.41,367.22,C00847,2025-12-04,Completed,Mobile App,Rawalpindi,SwiftEx,Cash on Delivery,FREESHIP,6,Granola Bars 1,Snacks
+52,UB-000026,103,2,916.7,5.0,1741.73,1363.04,C00847,2025-12-04,Completed,Mobile App,Rawalpindi,SwiftEx,Cash on Delivery,FREESHIP,6,Potato Chips 3,Snacks
+53,UB-000027,129,1,1155.81,0.0,1155.81,766.85,C00191,2025-04-19,Completed,Mobile App,Rawalpindi,SwiftEx,Cash on Delivery,,8,Toothpaste 1,Personal Care
+54,UB-000027,11,1,461.5,0.0,461.5,366.75,C00191,2025-04-19,Completed,Mobile App,Rawalpindi,SwiftEx,Cash on Delivery,,1,Onions 2,Fresh Produce
+55,UB-000028,72,5,980.08,0.0,4900.4,3708.0,C01599,2025-12-03,Completed,Web,Rawalpindi,RapidGo,Card,,4,Mango Drink 3,Beverages
+56,UB-000028,132,1,1213.59,0.0,1213.59,810.08,C01599,2025-12-03,Completed,Web,Rawalpindi,RapidGo,Card,,8,Lotion 1,Personal Care
+57,UB-000029,89,1,578.51,10.0,520.66,419.15,C00751,2025-11-05,Completed,Web,Rawalpindi,BlueLine,Wallet,,5,Lentils 3,Pantry
+58,UB-000029,27,2,1082.78,10.0,1949.0,1782.76,C00751,2025-11-05,Completed,Web,Rawalpindi,BlueLine,Wallet,,2,Cheddar Cheese 2,Dairy & Eggs
+59,UB-000030,42,1,610.11,5.0,579.6,398.38,C00494,2024-10-31,Completed,Web,Faisalabad,BlueLine,Cash on Delivery,SAVE15,3,Cookies 1,Bakery
+60,UB-000030,138,2,914.3,20.0,1462.88,1209.2,C00494,2024-10-31,Completed,Web,Faisalabad,BlueLine,Cash on Delivery,SAVE15,8,Lotion 2,Personal Care
+61,UB-000030,123,1,456.4,0.0,456.4,328.9,C00494,2024-10-31,Completed,Web,Faisalabad,BlueLine,Cash on Delivery,SAVE15,7,Tissues 3,Household
+62,UB-000030,25,2,638.44,0.0,1276.88,992.56,C00494,2024-10-31,Completed,Web,Faisalabad,BlueLine,Cash on Delivery,SAVE15,2,Fresh Milk 2,Dairy & Eggs
+63,UB-000030,30,3,1396.61,0.0,4189.83,2595.33,C00494,2024-10-31,Completed,Web,Faisalabad,BlueLine,Cash on Delivery,SAVE15,2,Cream 2,Dairy & Eggs
+64,UB-000031,128,3,177.51,20.0,426.02,425.73,C00290,2025-05-31,Completed,Web,Karachi,Store Pickup,Cash on Delivery,,8,Soap 1,Personal Care
+65,UB-000031,21,1,780.18,15.0,663.15,582.06,C00290,2025-05-31,Completed,Web,Karachi,Store Pickup,Cash on Delivery,,2,Cheddar Cheese 1,Dairy & Eggs
+66,UB-000032,35,2,813.23,0.0,1626.46,1135.26,C00193,2024-04-26,Completed,Web,Rawalpindi,BlueLine,Card,WELCOME10,2,Eggs 3,Dairy & Eggs
+67,UB-000032,139,1,698.51,0.0,698.51,504.16,C00193,2024-04-26,Completed,Web,Rawalpindi,BlueLine,Card,WELCOME10,8,Shampoo 3,Personal Care
+68,UB-000032,64,2,325.74,0.0,651.48,428.54,C00193,2024-04-26,Completed,Web,Rawalpindi,BlueLine,Card,WELCOME10,4,Coffee 2,Beverages
+69,UB-000033,85,1,340.53,0.0,340.53,232.68,C00305,2025-02-27,Completed,Mobile App,Karachi,BlueLine,Card,APP5,5,Basmati Rice 3,Pantry
+70,UB-000033,18,3,851.57,0.0,2554.71,1946.13,C00305,2025-02-27,Completed,Mobile App,Karachi,BlueLine,Card,APP5,1,Spinach 3,Fresh Produce
+71,UB-000033,26,2,223.05,0.0,446.1,276.98,C00305,2025-02-27,Completed,Mobile App,Karachi,BlueLine,Card,APP5,2,Yogurt 2,Dairy & Eggs
+72,UB-000033,58,5,556.92,0.0,2784.6,1782.8,C00305,2025-02-27,Completed,Mobile App,Karachi,BlueLine,Card,APP5,4,Coffee 1,Beverages
+73,UB-000034,15,2,1214.93,20.0,1943.89,1710.66,C00434,2025-05-02,Completed,Web,Karachi,SwiftEx,Cash on Delivery,,1,Tomatoes 3,Fresh Produce
+74,UB-000035,1,2,307.3,5.0,583.87,420.62,C00629,2025-10-15,Completed,Web,Rawalpindi,SwiftEx,Card,,1,Apples 1,Fresh Produce
+75,UB-000036,101,1,1094.88,0.0,1094.88,893.27,C01145,2024-11-04,Completed,Web,Rawalpindi,BlueLine,Cash on Delivery,,6,Crackers 2,Snacks
+76,UB-000037,82,1,1022.46,0.0,1022.46,685.33,C00177,2025-05-05,Completed,Web,Lahore,BlueLine,Wallet,,5,Sugar 2,Pantry
+77,UB-000038,143,2,791.39,0.0,1582.78,1229.42,C00440,2025-06-03,Completed,Mobile App,Lahore,RapidGo,Wallet,,8,Hand Wash 3,Personal Care
+78,UB-000039,124,1,528.54,15.0,449.26,445.56,C00156,2024-12-16,Completed,Mobile App,Peshawar,RapidGo,Cash on Delivery,SAVE15,7,Trash Bags 3,Household
+79,UB-000039,118,2,625.76,0.0,1251.52,843.58,C00156,2024-12-16,Completed,Mobile App,Peshawar,RapidGo,Cash on Delivery,SAVE15,7,Trash Bags 2,Household
+80,UB-000040,25,1,652.72,10.0,587.45,496.28,C01306,2025-09-26,Completed,Mobile App,Rawalpindi,RapidGo,Cash on Delivery,APP5,2,Fresh Milk 2,Dairy & Eggs
+81,UB-000040,90,2,689.11,0.0,1378.22,1014.52,C01306,2025-09-26,Completed,Mobile App,Rawalpindi,RapidGo,Cash on Delivery,APP5,5,Spices 3,Pantry
+82,UB-000040,118,2,623.09,20.0,996.94,843.58,C01306,2025-09-26,Completed,Mobile App,Rawalpindi,RapidGo,Cash on Delivery,APP5,7,Trash Bags 2,Household
+83,UB-000041,136,1,1397.06,5.0,1327.21,866.98,C00887,2025-08-26,Completed,Web,Karachi,BlueLine,Cash on Delivery,,8,Face Wash 2,Personal Care
+84,UB-000042,71,1,188.76,0.0,188.76,122.07,C00055,2025-02-18,Completed,Web,Karachi,Store Pickup,Wallet,FREESHIP,4,Cola 3,Beverages
+85,UB-000043,1,3,310.14,5.0,883.9,630.93,C00649,2025-07-20,Completed,Mobile App,Rawalpindi,BlueLine,Wallet,,1,Apples 1,Fresh Produce
+86,UB-000043,82,1,1045.02,0.0,1045.02,685.33,C00649,2025-07-20,Completed,Mobile App,Rawalpindi,BlueLine,Wallet,,5,Sugar 2,Pantry
+87,UB-000043,111,1,642.57,10.0,578.31,556.79,C00649,2025-07-20,Completed,Mobile App,Rawalpindi,BlueLine,Wallet,,7,Tissues 1,Household
+88,UB-000043,101,3,1095.73,20.0,2629.75,2679.81,C00649,2025-07-20,Completed,Mobile App,Rawalpindi,BlueLine,Wallet,,6,Crackers 2,Snacks
+89,UB-000043,61,1,1082.68,0.0,1082.68,828.14,C00649,2025-07-20,Completed,Mobile App,Rawalpindi,BlueLine,Wallet,,4,Orange Juice 2,Beverages
+90,UB-000044,124,2,522.89,0.0,1045.78,891.12,C00157,2024-06-22,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,WELCOME10,7,Trash Bags 3,Household
+91,UB-000044,123,4,466.68,0.0,1866.72,1315.6,C00157,2024-06-22,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,WELCOME10,7,Tissues 3,Household
+92,UB-000044,76,1,797.73,5.0,757.84,616.89,C00157,2024-06-22,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,WELCOME10,5,Sugar 1,Pantry
+93,UB-000044,118,3,625.69,10.0,1689.36,1265.37,C00157,2024-06-22,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,WELCOME10,7,Trash Bags 2,Household
+94,UB-000044,15,3,1227.79,0.0,3683.37,2565.99,C00157,2024-06-22,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,WELCOME10,1,Tomatoes 3,Fresh Produce
+95,UB-000045,11,1,464.43,5.0,441.21,366.75,C01147,2025-11-09,Returned,Web,Karachi,BlueLine,Wallet,,1,Onions 2,Fresh Produce
+96,UB-000045,22,2,669.14,5.0,1271.37,951.32,C01147,2025-11-09,Returned,Web,Karachi,BlueLine,Wallet,,2,Butter 1,Dairy & Eggs
+97,UB-000045,142,1,488.03,0.0,488.03,406.29,C01147,2025-11-09,Returned,Web,Karachi,BlueLine,Wallet,,8,Face Wash 3,Personal Care
+98,UB-000045,28,1,912.8,0.0,912.8,673.25,C01147,2025-11-09,Returned,Web,Karachi,BlueLine,Wallet,,2,Butter 2,Dairy & Eggs
+99,UB-000046,96,1,514.71,20.0,411.77,367.22,C00097,2024-07-10,Completed,Web,Lahore,BlueLine,Cash on Delivery,,6,Granola Bars 1,Snacks
+100,UB-000046,42,2,613.09,20.0,980.94,796.76,C00097,2024-07-10,Completed,Web,Lahore,BlueLine,Cash on Delivery,,3,Cookies 1,Bakery
+101,UB-000047,141,2,286.15,10.0,515.07,371.34,C00715,2025-08-14,Completed,Web,Lahore,RapidGo,Wallet,SAVE15,8,Toothpaste 3,Personal Care
+102,UB-000048,46,2,220.75,15.0,375.28,335.62,C01416,2025-05-30,Completed,Web,Rawalpindi,SwiftEx,Wallet,,3,Cupcakes 2,Bakery
+103,UB-000048,60,2,188.2,0.0,376.4,289.64,C01416,2025-05-30,Completed,Web,Rawalpindi,SwiftEx,Wallet,,4,Mango Drink 1,Beverages
+104,UB-000049,103,1,892.66,0.0,892.66,681.52,C00710,2024-08-25,Completed,Mobile App,Karachi,BlueLine,Cash on Delivery,APP5,6,Potato Chips 3,Snacks
+105,UB-000050,45,2,801.36,10.0,1442.45,1221.74,C01069,2024-04-20,Completed,Web,Rawalpindi,SwiftEx,Card,APP5,3,Croissants 2,Bakery
+106,UB-000050,86,1,490.78,10.0,441.7,409.68,C01069,2024-04-20,Completed,Web,Rawalpindi,SwiftEx,Card,APP5,5,Cooking Oil 3,Pantry
+107,UB-000051,143,2,811.09,10.0,1459.96,1229.42,C00991,2025-11-21,Completed,Mobile App,Lahore,Store Pickup,Cash on Delivery,,8,Hand Wash 3,Personal Care
+108,UB-000051,121,1,916.38,0.0,916.38,683.69,C00991,2025-11-21,Completed,Mobile App,Lahore,Store Pickup,Cash on Delivery,,7,Dish Soap 3,Household
+109,UB-000052,95,1,471.78,0.0,471.78,369.8,C00200,2025-05-14,Completed,Web,Karachi,RapidGo,Bank Transfer,,6,Crackers 1,Snacks
+110,UB-000052,86,1,501.25,10.0,451.12,409.68,C00200,2025-05-14,Completed,Web,Karachi,RapidGo,Bank Transfer,,5,Cooking Oil 3,Pantry
+111,UB-000053,112,1,465.73,0.0,465.73,338.04,C01418,2024-12-31,Completed,Mobile App,Islamabad,SwiftEx,Bank Transfer,,7,Trash Bags 1,Household
+112,UB-000053,9,2,667.11,5.0,1267.51,1003.38,C01418,2024-12-31,Completed,Mobile App,Islamabad,SwiftEx,Bank Transfer,,1,Tomatoes 2,Fresh Produce
+113,UB-000053,89,2,572.11,0.0,1144.22,838.3,C01418,2024-12-31,Completed,Mobile App,Islamabad,SwiftEx,Bank Transfer,,5,Lentils 3,Pantry
+114,UB-000054,53,1,1285.14,5.0,1220.88,865.12,C00277,2024-01-31,Completed,Mobile App,Lahore,BlueLine,Wallet,APP5,3,Burger Buns 3,Bakery
+115,UB-000055,79,5,754.87,10.0,3396.92,2394.4,C01112,2024-01-23,Completed,Mobile App,Faisalabad,RapidGo,Wallet,,5,Basmati Rice 2,Pantry
+116,UB-000056,87,1,383.56,0.0,383.56,296.68,C00848,2025-01-01,Completed,Web,Karachi,SwiftEx,Card,SAVE15,5,Flour 3,Pantry
+117,UB-000056,8,2,369.82,0.0,739.64,586.88,C00848,2025-01-01,Completed,Web,Karachi,SwiftEx,Card,SAVE15,1,Bananas 2,Fresh Produce
+118,UB-000056,31,1,719.9,0.0,719.9,581.59,C00848,2025-01-01,Completed,Web,Karachi,SwiftEx,Card,SAVE15,2,Fresh Milk 3,Dairy & Eggs
+119,UB-000056,40,2,375.54,10.0,675.97,511.88,C00848,2025-01-01,Completed,Web,Karachi,SwiftEx,Card,SAVE15,3,Cupcakes 1,Bakery
+120,UB-000057,76,1,825.42,10.0,742.88,616.89,C01579,2025-06-03,Completed,Web,Rawalpindi,BlueLine,Cash on Delivery,,5,Sugar 1,Pantry
+121,UB-000057,82,3,1028.72,20.0,2468.93,2055.99,C01579,2025-06-03,Completed,Web,Rawalpindi,BlueLine,Cash on Delivery,,5,Sugar 2,Pantry
+122,UB-000058,95,1,497.11,0.0,497.11,369.8,C00499,2024-04-26,Completed,Web,Rawalpindi,RapidGo,Card,,6,Crackers 1,Snacks
+123,UB-000058,42,3,608.5,0.0,1825.5,1195.14,C00499,2024-04-26,Completed,Web,Rawalpindi,RapidGo,Card,,3,Cookies 1,Bakery
+124,UB-000058,26,1,213.74,0.0,213.74,138.49,C00499,2024-04-26,Completed,Web,Rawalpindi,RapidGo,Card,,2,Yogurt 2,Dairy & Eggs
+125,UB-000059,30,1,1369.88,0.0,1369.88,865.11,C01222,2024-11-23,Completed,Web,Peshawar,BlueLine,Card,,2,Cream 2,Dairy & Eggs
+126,UB-000060,23,1,918.69,5.0,872.76,627.54,C00199,2025-12-13,Completed,Mobile App,Karachi,BlueLine,Card,,2,Eggs 1,Dairy & Eggs
+127,UB-000060,67,3,155.44,5.0,443.0,288.6,C00199,2025-12-13,Completed,Mobile App,Karachi,BlueLine,Card,,4,Orange Juice 3,Beverages
+128,UB-000060,133,2,513.45,10.0,924.21,640.74,C00199,2025-12-13,Completed,Mobile App,Karachi,BlueLine,Card,,8,Shampoo 2,Personal Care
+129,UB-000061,74,1,1121.88,0.0,1121.88,882.89,C00913,2024-12-30,Completed,Web,Islamabad,SwiftEx,Card,,5,Cooking Oil 1,Pantry
+130,UB-000061,33,1,439.06,0.0,439.06,296.56,C00913,2024-12-30,Completed,Web,Islamabad,SwiftEx,Card,,2,Cheddar Cheese 3,Dairy & Eggs
+131,UB-000061,96,4,494.72,10.0,1780.99,1468.88,C00913,2024-12-30,Completed,Web,Islamabad,SwiftEx,Card,,6,Granola Bars 1,Snacks
+132,UB-000062,56,3,507.08,5.0,1445.18,1046.34,C01377,2024-05-04,Completed,Mobile App,Rawalpindi,RapidGo,Card,,4,Mineral Water 1,Beverages
+133,UB-000062,34,1,161.7,0.0,161.7,138.03,C01377,2024-05-04,Completed,Mobile App,Rawalpindi,RapidGo,Card,,2,Butter 3,Dairy & Eggs
+134,UB-000062,101,2,1141.76,5.0,2169.34,1786.54,C01377,2024-05-04,Completed,Mobile App,Rawalpindi,RapidGo,Card,,6,Crackers 2,Snacks
+135,UB-000062,119,1,603.19,0.0,603.19,477.5,C01377,2024-05-04,Completed,Mobile App,Rawalpindi,RapidGo,Card,,7,Floor Cleaner 2,Household
+136,UB-000063,15,1,1214.94,0.0,1214.94,855.33,C00609,2025-07-30,Completed,Web,Islamabad,Store Pickup,Wallet,,1,Tomatoes 3,Fresh Produce
+137,UB-000063,61,1,1109.24,0.0,1109.24,828.14,C00609,2025-07-30,Completed,Web,Islamabad,Store Pickup,Wallet,,4,Orange Juice 2,Beverages
+138,UB-000063,9,1,666.51,15.0,566.53,501.69,C00609,2025-07-30,Completed,Web,Islamabad,Store Pickup,Wallet,,1,Tomatoes 2,Fresh Produce
+139,UB-000064,130,1,937.56,10.0,843.8,653.53,C00541,2025-02-02,Completed,Web,Islamabad,RapidGo,Cash on Delivery,APP5,8,Face Wash 1,Personal Care
+140,UB-000064,111,5,674.43,0.0,3372.15,2783.95,C00541,2025-02-02,Completed,Web,Islamabad,RapidGo,Cash on Delivery,APP5,7,Tissues 1,Household
+141,UB-000064,23,2,925.38,10.0,1665.68,1255.08,C00541,2025-02-02,Completed,Web,Islamabad,RapidGo,Cash on Delivery,APP5,2,Eggs 1,Dairy & Eggs
+142,UB-000065,10,1,96.05,0.0,96.05,70.79,C00492,2025-02-23,Returned,Mobile App,Karachi,BlueLine,Wallet,APP5,1,Potatoes 2,Fresh Produce
+143,UB-000066,55,1,879.49,0.0,879.49,606.14,C01139,2025-03-16,Returned,Mobile App,Peshawar,RapidGo,Cash on Delivery,,4,Orange Juice 1,Beverages
+144,UB-000066,30,2,1327.67,0.0,2655.34,1730.22,C01139,2025-03-16,Returned,Mobile App,Peshawar,RapidGo,Cash on Delivery,,2,Cream 2,Dairy & Eggs
+145,UB-000066,22,2,657.78,0.0,1315.56,951.32,C01139,2025-03-16,Returned,Mobile App,Peshawar,RapidGo,Cash on Delivery,,2,Butter 1,Dairy & Eggs
+146,UB-000066,92,1,824.52,0.0,824.52,524.51,C01139,2025-03-16,Returned,Mobile App,Peshawar,RapidGo,Cash on Delivery,,6,Mixed Nuts 1,Snacks
+147,UB-000067,17,2,836.67,0.0,1673.34,1289.28,C00487,2024-09-28,Completed,Web,Rawalpindi,SwiftEx,Card,,1,Onions 3,Fresh Produce
+148,UB-000067,91,3,459.1,0.0,1377.3,963.21,C00487,2024-09-28,Completed,Web,Rawalpindi,SwiftEx,Card,,6,Potato Chips 1,Snacks
+149,UB-000067,94,2,773.12,0.0,1546.24,1076.72,C00487,2024-09-28,Completed,Web,Rawalpindi,SwiftEx,Card,,6,Popcorn 1,Snacks
+150,UB-000068,106,3,1058.1,15.0,2698.16,2159.28,C01200,2025-10-25,Completed,Marketplace,Lahore,BlueLine,Wallet,,6,Popcorn 3,Snacks
+151,UB-000069,98,3,566.61,5.0,1614.84,1401.99,C00260,2024-05-16,Completed,Mobile App,Islamabad,SwiftEx,Card,,6,Mixed Nuts 2,Snacks
+152,UB-000069,143,2,800.39,10.0,1440.7,1229.42,C00260,2024-05-16,Completed,Mobile App,Islamabad,SwiftEx,Card,,8,Hand Wash 3,Personal Care
+153,UB-000070,120,1,722.0,0.0,722.0,488.5,C00187,2024-09-05,Completed,Web,Lahore,BlueLine,Cash on Delivery,,7,Foil 2,Household
+154,UB-000070,80,1,395.87,10.0,356.28,302.58,C00187,2024-09-05,Completed,Web,Lahore,BlueLine,Cash on Delivery,,5,Cooking Oil 2,Pantry
+155,UB-000070,85,2,338.45,0.0,676.9,465.36,C00187,2024-09-05,Completed,Web,Lahore,BlueLine,Cash on Delivery,,5,Basmati Rice 3,Pantry
+156,UB-000071,8,2,368.91,0.0,737.82,586.88,C00931,2025-04-10,Completed,Web,Faisalabad,BlueLine,Wallet,,1,Bananas 2,Fresh Produce
+157,UB-000071,56,1,521.54,20.0,417.23,348.78,C00931,2025-04-10,Completed,Web,Faisalabad,BlueLine,Wallet,,4,Mineral Water 1,Beverages
+158,UB-000072,103,2,886.45,10.0,1595.61,1363.04,C00116,2025-12-19,Completed,Mobile App,Karachi,RapidGo,Card,WELCOME10,6,Potato Chips 3,Snacks
+159,UB-000072,54,1,1030.39,0.0,1030.39,807.18,C00116,2025-12-19,Completed,Mobile App,Karachi,RapidGo,Card,WELCOME10,3,Cookies 3,Bakery
+160,UB-000073,124,3,546.32,20.0,1311.17,1336.68,C00081,2025-03-14,Completed,Marketplace,Karachi,SwiftEx,Bank Transfer,,7,Trash Bags 3,Household
+161,UB-000074,140,2,291.39,0.0,582.78,390.12,C01453,2025-12-04,Completed,Mobile App,Faisalabad,RapidGo,Bank Transfer,WELCOME10,8,Soap 3,Personal Care
+162,UB-000074,127,2,295.12,0.0,590.24,444.52,C01453,2025-12-04,Completed,Mobile App,Faisalabad,RapidGo,Bank Transfer,WELCOME10,8,Shampoo 1,Personal Care
+163,UB-000074,92,1,846.8,0.0,846.8,524.51,C01453,2025-12-04,Completed,Mobile App,Faisalabad,RapidGo,Bank Transfer,WELCOME10,6,Mixed Nuts 1,Snacks
+164,UB-000075,20,4,982.88,15.0,3341.79,2696.96,C00724,2024-01-15,Completed,Marketplace,Rawalpindi,RapidGo,Cash on Delivery,WELCOME10,2,Yogurt 1,Dairy & Eggs
+165,UB-000075,44,1,773.22,0.0,773.22,587.81,C00724,2024-01-15,Completed,Marketplace,Rawalpindi,RapidGo,Cash on Delivery,WELCOME10,3,Brown Bread 2,Bakery
+166,UB-000076,92,1,844.47,5.0,802.25,524.51,C00390,2025-09-26,Completed,Mobile App,Rawalpindi,BlueLine,Wallet,,6,Mixed Nuts 1,Snacks
+167,UB-000076,22,1,673.24,15.0,572.25,475.66,C00390,2025-09-26,Completed,Mobile App,Rawalpindi,BlueLine,Wallet,,2,Butter 1,Dairy & Eggs
+168,UB-000077,126,1,1277.13,10.0,1149.42,803.5,C00238,2024-09-04,Completed,Web,Karachi,SwiftEx,Cash on Delivery,APP5,7,Foil 3,Household
+169,UB-000078,106,1,1022.18,0.0,1022.18,719.76,C00822,2025-01-08,Completed,Mobile App,Islamabad,BlueLine,Card,,6,Popcorn 3,Snacks
+170,UB-000079,38,1,1077.49,0.0,1077.49,721.69,C00243,2025-07-27,Completed,Web,Karachi,SwiftEx,Bank Transfer,,3,Brown Bread 1,Bakery
+171,UB-000079,16,1,1075.35,10.0,967.82,816.38,C00243,2025-07-27,Completed,Web,Karachi,SwiftEx,Bank Transfer,,1,Potatoes 3,Fresh Produce
+172,UB-000080,13,1,376.94,0.0,376.94,235.91,C01086,2025-09-23,Completed,Mobile App,Rawalpindi,SwiftEx,Card,,1,Apples 3,Fresh Produce
+173,UB-000080,121,1,930.27,10.0,837.24,683.69,C01086,2025-09-23,Completed,Mobile App,Rawalpindi,SwiftEx,Card,,7,Dish Soap 3,Household
+174,UB-000080,142,1,476.69,0.0,476.69,406.29,C01086,2025-09-23,Completed,Mobile App,Rawalpindi,SwiftEx,Card,,8,Face Wash 3,Personal Care
+175,UB-000081,24,2,95.49,0.0,190.98,123.02,C00195,2025-10-27,Completed,Mobile App,Rawalpindi,Store Pickup,Cash on Delivery,,2,Cream 1,Dairy & Eggs
+176,UB-000081,67,2,158.27,0.0,316.54,192.4,C00195,2025-10-27,Completed,Mobile App,Rawalpindi,Store Pickup,Cash on Delivery,,4,Orange Juice 3,Beverages
+177,UB-000081,17,4,840.13,0.0,3360.52,2578.56,C00195,2025-10-27,Completed,Mobile App,Rawalpindi,Store Pickup,Cash on Delivery,,1,Onions 3,Fresh Produce
+178,UB-000081,53,2,1305.41,0.0,2610.82,1730.24,C00195,2025-10-27,Completed,Mobile App,Rawalpindi,Store Pickup,Cash on Delivery,,3,Burger Buns 3,Bakery
+179,UB-000082,24,4,94.97,20.0,303.9,246.04,C00200,2024-10-05,Completed,Marketplace,Karachi,BlueLine,Bank Transfer,FREESHIP,2,Cream 1,Dairy & Eggs
+180,UB-000082,51,2,228.77,0.0,457.54,317.98,C00200,2024-10-05,Completed,Marketplace,Karachi,BlueLine,Bank Transfer,FREESHIP,3,Croissants 3,Bakery
+181,UB-000083,80,2,404.71,5.0,768.95,605.16,C01316,2025-05-12,Completed,Marketplace,Karachi,RapidGo,Card,,5,Cooking Oil 2,Pantry
+182,UB-000083,1,1,301.5,0.0,301.5,210.31,C01316,2025-05-12,Completed,Marketplace,Karachi,RapidGo,Card,,1,Apples 1,Fresh Produce
+183,UB-000083,22,2,649.85,10.0,1169.73,951.32,C01316,2025-05-12,Completed,Marketplace,Karachi,RapidGo,Card,,2,Butter 1,Dairy & Eggs
+184,UB-000084,49,3,966.96,0.0,2900.88,1842.12,C00555,2024-09-16,Completed,Web,Lahore,SwiftEx,Card,APP5,3,White Bread 3,Bakery
+185,UB-000085,142,3,492.8,10.0,1330.56,1218.87,C00330,2025-07-28,Completed,Web,Lahore,Store Pickup,Cash on Delivery,,8,Face Wash 3,Personal Care
+186,UB-000085,15,1,1242.12,10.0,1117.91,855.33,C00330,2025-07-28,Completed,Web,Lahore,Store Pickup,Cash on Delivery,,1,Tomatoes 3,Fresh Produce
+187,UB-000086,86,3,499.86,5.0,1424.6,1229.04,C01239,2025-07-03,Completed,Mobile App,Faisalabad,BlueLine,Card,APP5,5,Cooking Oil 3,Pantry
+188,UB-000086,17,2,860.58,15.0,1462.99,1289.28,C01239,2025-07-03,Completed,Mobile App,Faisalabad,BlueLine,Card,APP5,1,Onions 3,Fresh Produce
+189,UB-000086,50,2,437.16,0.0,874.32,655.38,C01239,2025-07-03,Completed,Mobile App,Faisalabad,BlueLine,Card,APP5,3,Brown Bread 3,Bakery
+190,UB-000087,10,2,96.1,0.0,192.2,141.58,C01369,2024-11-27,Completed,Mobile App,Rawalpindi,SwiftEx,Cash on Delivery,,1,Potatoes 2,Fresh Produce
+191,UB-000088,7,2,1063.5,15.0,1807.95,1507.5,C00465,2025-05-10,Completed,Web,Faisalabad,RapidGo,Wallet,SAVE15,1,Apples 2,Fresh Produce
+192,UB-000088,100,1,201.57,0.0,201.57,158.88,C00465,2025-05-10,Completed,Web,Faisalabad,RapidGo,Wallet,SAVE15,6,Popcorn 2,Snacks
+193,UB-000089,142,2,496.39,15.0,843.86,812.58,C01419,2024-06-15,Completed,Web,Islamabad,BlueLine,Wallet,,8,Face Wash 3,Personal Care
+194,UB-000089,121,1,934.53,5.0,887.8,683.69,C01419,2024-06-15,Completed,Web,Islamabad,BlueLine,Wallet,,7,Dish Soap 3,Household
+195,UB-000089,10,1,96.13,5.0,91.32,70.79,C01419,2024-06-15,Completed,Web,Islamabad,BlueLine,Wallet,,1,Potatoes 2,Fresh Produce
+196,UB-000089,8,1,375.54,0.0,375.54,293.44,C01419,2024-06-15,Completed,Web,Islamabad,BlueLine,Wallet,,1,Bananas 2,Fresh Produce
+197,UB-000090,8,1,382.57,0.0,382.57,293.44,C01098,2025-11-20,Completed,Mobile App,Rawalpindi,BlueLine,Card,,1,Bananas 2,Fresh Produce
+198,UB-000090,38,4,1081.86,15.0,3678.32,2886.76,C01098,2025-11-20,Completed,Mobile App,Rawalpindi,BlueLine,Card,,3,Brown Bread 1,Bakery
+199,UB-000090,128,3,168.58,0.0,505.74,425.73,C01098,2025-11-20,Completed,Mobile App,Rawalpindi,BlueLine,Card,,8,Soap 1,Personal Care
+200,UB-000091,129,2,1174.55,0.0,2349.1,1533.7,C00487,2024-10-15,Completed,Mobile App,Rawalpindi,SwiftEx,Card,WELCOME10,8,Toothpaste 1,Personal Care
+201,UB-000092,91,1,459.84,5.0,436.85,321.07,C01235,2025-03-12,Completed,Marketplace,Karachi,BlueLine,Cash on Delivery,APP5,6,Potato Chips 1,Snacks
+202,UB-000093,141,2,275.33,0.0,550.66,371.34,C00674,2024-09-12,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,,8,Toothpaste 3,Personal Care
+203,UB-000093,39,1,897.49,0.0,897.49,614.07,C00674,2024-09-12,Completed,Mobile App,Islamabad,SwiftEx,Cash on Delivery,,3,Croissants 1,Bakery
+204,UB-000094,59,2,305.86,20.0,489.38,483.76,C00260,2024-05-28,Completed,Web,Islamabad,RapidGo,Wallet,,4,Cola 1,Beverages
+205,UB-000095,59,1,301.73,0.0,301.73,241.88,C00885,2025-06-09,Completed,Mobile App,Lahore,SwiftEx,Card,,4,Cola 1,Beverages
+206,UB-000095,41,5,906.5,5.0,4305.88,3719.8,C00885,2025-06-09,Completed,Mobile App,Lahore,SwiftEx,Card,,3,Burger Buns 1,Bakery
+207,UB-000095,8,3,385.97,20.0,926.33,880.32,C00885,2025-06-09,Completed,Mobile App,Lahore,SwiftEx,Card,,1,Bananas 2,Fresh Produce
+208,UB-000095,27,1,1106.63,20.0,885.3,891.38,C00885,2025-06-09,Completed,Mobile App,Lahore,SwiftEx,Card,,2,Cheddar Cheese 2,Dairy & Eggs
+209,UB-000096,85,2,333.56,0.0,667.12,465.36,C00121,2024-03-02,Completed,Mobile App,Faisalabad,RapidGo,Card,,5,Basmati Rice 3,Pantry
+210,UB-000096,64,2,325.98,10.0,586.76,428.54,C00121,2024-03-02,Completed,Mobile App,Faisalabad,RapidGo,Card,,4,Coffee 2,Beverages
+211,UB-000096,112,1,460.74,0.0,460.74,338.04,C00121,2024-03-02,Completed,Mobile App,Faisalabad,RapidGo,Card,,7,Trash Bags 1,Household
+212,UB-000096,11,1,457.79,0.0,457.79,366.75,C00121,2024-03-02,Completed,Mobile App,Faisalabad,RapidGo,Card,,1,Onions 2,Fresh Produce
+213,UB-000096,107,2,313.19,0.0,626.38,456.9,C00121,2024-03-02,Completed,Mobile App,Faisalabad,RapidGo,Card,,6,Crackers 3,Snacks
+214,UB-000097,133,1,498.08,10.0,448.27,320.37,C00375,2025-01-01,Completed,Web,Lahore,BlueLine,Wallet,,8,Shampoo 2,Personal Care
+215,UB-000097,35,1,787.15,20.0,629.72,567.63,C00375,2025-01-01,Completed,Web,Lahore,BlueLine,Wallet,,2,Eggs 3,Dairy & Eggs
+216,UB-000097,75,2,858.94,0.0,1717.88,1175.56,C00375,2025-01-01,Completed,Web,Lahore,BlueLine,Wallet,,5,Flour 1,Pantry
+217,UB-000098,97,3,1109.74,15.0,2829.84,2137.65,C00295,2025-05-09,Completed,Web,Islamabad,SwiftEx,Cash on Delivery,,6,Potato Chips 2,Snacks
+218,UB-000098,85,2,325.21,0.0,650.42,465.36,C00295,2025-05-09,Completed,Web,Islamabad,SwiftEx,Cash on Delivery,,5,Basmati Rice 3,Pantry
+219,UB-000098,30,1,1381.29,0.0,1381.29,865.11,C00295,2025-05-09,Completed,Web,Islamabad,SwiftEx,Cash on Delivery,,2,Cream 2,Dairy & Eggs
+220,UB-000099,66,1,963.77,0.0,963.77,716.35,C00868,2025-05-16,Completed,Mobile App,Peshawar,SwiftEx,Cash on Delivery,,4,Mango Drink 2,Beverages
+221,UB-000100,88,1,690.96,0.0,690.96,553.89,C00827,2025-10-30,Completed,Web,Faisalabad,BlueLine,Card,FREESHIP,5,Sugar 3,Pantry
+222,UB-000101,101,2,1149.23,0.0,2298.46,1786.54,C01432,2025-07-13,Completed,Web,Rawalpindi,SwiftEx,Cash on Delivery,,6,Crackers 2,Snacks
+223,UB-000101,43,1,169.56,5.0,161.08,116.88,C01432,2025-07-13,Completed,Web,Rawalpindi,SwiftEx,Cash on Delivery,,3,White Bread 2,Bakery
+224,UB-000101,12,2,553.02,0.0,1106.04,851.32,C01432,2025-07-13,Completed,Web,Rawalpindi,SwiftEx,Cash on Delivery,,1,Spinach 2,Fresh Produce
+225,UB-000102,41,1,924.42,0.0,924.42,743.96,C00928,2024-10-12,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,FREESHIP,3,Burger Buns 1,Bakery
+226,UB-000102,75,1,882.48,5.0,838.36,587.78,C00928,2024-10-12,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,FREESHIP,5,Flour 1,Pantry
+227,UB-000102,119,2,586.78,0.0,1173.56,955.0,C00928,2024-10-12,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,FREESHIP,7,Floor Cleaner 2,Household
+228,UB-000102,77,1,271.23,5.0,257.67,195.63,C00928,2024-10-12,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,FREESHIP,5,Lentils 1,Pantry
+229,UB-000103,137,2,1277.83,0.0,2555.66,1632.44,C00641,2024-11-06,Completed,Web,Karachi,BlueLine,Card,,8,Hand Wash 2,Personal Care
+230,UB-000103,3,3,1158.44,0.0,3475.32,2172.12,C00641,2024-11-06,Completed,Web,Karachi,BlueLine,Card,,1,Tomatoes 1,Fresh Produce
+231,UB-000104,144,1,412.78,0.0,412.78,300.62,C01470,2024-07-16,Returned,Mobile App,Rawalpindi,RapidGo,Card,,8,Lotion 3,Personal Care
+232,UB-000104,44,2,794.72,0.0,1589.44,1175.62,C01470,2024-07-16,Returned,Mobile App,Rawalpindi,RapidGo,Card,,3,Brown Bread 2,Bakery
+233,UB-000104,45,1,818.61,0.0,818.61,610.87,C01470,2024-07-16,Returned,Mobile App,Rawalpindi,RapidGo,Card,,3,Croissants 2,Bakery
+234,UB-000104,57,1,786.03,10.0,707.43,567.7,C01470,2024-07-16,Returned,Mobile App,Rawalpindi,RapidGo,Card,,4,Green Tea 1,Beverages
+235,UB-000104,137,3,1287.89,15.0,3284.12,2448.66,C01470,2024-07-16,Returned,Mobile App,Rawalpindi,RapidGo,Card,,8,Hand Wash 2,Personal Care
+236,UB-000105,81,1,1059.32,5.0,1006.35,710.48,C01487,2024-03-22,Completed,Mobile App,Islamabad,BlueLine,Cash on Delivery,APP5,5,Flour 2,Pantry
+237,UB-000105,101,1,1096.79,0.0,1096.79,893.27,C01487,2024-03-22,Completed,Mobile App,Islamabad,BlueLine,Cash on Delivery,APP5,6,Crackers 2,Snacks
+238,UB-000105,35,3,769.23,0.0,2307.69,1702.89,C01487,2024-03-22,Completed,Mobile App,Islamabad,BlueLine,Cash on Delivery,APP5,2,Eggs 3,Dairy & Eggs
+239,UB-000106,15,1,1250.13,5.0,1187.62,855.33,C00285,2025-01-27,Completed,Web,Karachi,RapidGo,Cash on Delivery,,1,Tomatoes 3,Fresh Produce
+240,UB-000107,89,1,586.61,5.0,557.28,419.15,C00492,2025-09-03,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,WELCOME10,5,Lentils 3,Pantry
+241,UB-000107,108,2,1109.4,5.0,2107.86,1591.1,C00492,2025-09-03,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,WELCOME10,6,Granola Bars 3,Snacks
+242,UB-000107,69,1,308.09,0.0,308.09,234.6,C00492,2025-09-03,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,WELCOME10,4,Green Tea 3,Beverages
+243,UB-000107,106,1,1024.03,0.0,1024.03,719.76,C00492,2025-09-03,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,WELCOME10,6,Popcorn 3,Snacks
+244,UB-000107,6,2,983.49,0.0,1966.98,1384.58,C00492,2025-09-03,Completed,Mobile App,Karachi,BlueLine,Bank Transfer,WELCOME10,1,Spinach 1,Fresh Produce
+245,UB-000108,119,2,597.68,20.0,956.29,955.0,C00921,2025-09-09,Completed,Web,Rawalpindi,BlueLine,Cash on Delivery,SAVE15,7,Floor Cleaner 2,Household
+246,UB-000108,6,2,992.8,10.0,1787.04,1384.58,C00921,2025-09-09,Completed,Web,Rawalpindi,BlueLine,Cash on Delivery,SAVE15,1,Spinach 1,Fresh Produce
+247,UB-000109,8,3,368.99,0.0,1106.97,880.32,C01568,2025-09-23,Completed,Marketplace,Rawalpindi,BlueLine,Cash on Delivery,SAVE15,1,Bananas 2,Fresh Produce
+248,UB-000109,117,2,546.17,5.0,1037.72,820.86,C01568,2025-09-23,Completed,Marketplace,Rawalpindi,BlueLine,Cash on Delivery,SAVE15,7,Tissues 2,Household
+249,UB-000110,14,1,776.66,5.0,737.83,569.64,C00688,2024-01-10,Completed,Mobile App,Islamabad,SwiftEx,Card,,1,Bananas 3,Fresh Produce
+250,UB-000111,68,1,223.3,0.0,223.3,161.19,C01208,2024-08-04,Completed,Web,Islamabad,RapidGo,Wallet,APP5,4,Mineral Water 3,Beverages
+251,UB-000112,39,3,864.09,0.0,2592.27,1842.21,C00117,2024-04-04,Completed,Web,Rawalpindi,Store Pickup,Cash on Delivery,,3,Croissants 1,Bakery
+252,UB-000113,82,1,1024.87,0.0,1024.87,685.33,C01467,2024-10-31,Completed,Web,Rawalpindi,RapidGo,Cash on Delivery,,5,Sugar 2,Pantry
+253,UB-000113,54,1,1039.77,0.0,1039.77,807.18,C01467,2024-10-31,Completed,Web,Rawalpindi,RapidGo,Cash on Delivery,,3,Cookies 3,Bakery
+254,UB-000114,49,3,951.04,0.0,2853.12,1842.12,C00303,2025-06-03,Completed,Web,Karachi,BlueLine,Cash on Delivery,,3,White Bread 3,Bakery
+255,UB-000115,58,1,581.34,0.0,581.34,356.56,C00063,2025-03-04,Completed,Mobile App,Karachi,SwiftEx,Card,,4,Coffee 1,Beverages
+256,UB-000115,124,2,532.01,0.0,1064.02,891.12,C00063,2025-03-04,Completed,Mobile App,Karachi,SwiftEx,Card,,7,Trash Bags 3,Household
+257,UB-000116,141,4,285.65,5.0,1085.47,742.68,C00188,2025-04-18,Completed,Web,Islamabad,SwiftEx,Card,APP5,8,Toothpaste 3,Personal Care
+258,UB-000117,136,1,1389.13,20.0,1111.3,866.98,C00758,2024-02-11,Completed,Mobile App,Islamabad,BlueLine,Card,WELCOME10,8,Face Wash 2,Personal Care
+259,UB-000117,19,2,692.07,5.0,1314.93,948.42,C00758,2024-02-11,Completed,Mobile App,Islamabad,BlueLine,Card,WELCOME10,2,Fresh Milk 1,Dairy & Eggs
+260,UB-000117,53,1,1269.23,0.0,1269.23,865.12,C00758,2024-02-11,Completed,Mobile App,Islamabad,BlueLine,Card,WELCOME10,3,Burger Buns 3,Bakery
+261,UB-000118,19,1,674.27,0.0,674.27,474.21,C01263,2024-11-07,Completed,Web,Rawalpindi,Store Pickup,Card,,2,Fresh Milk 1,Dairy & Eggs
+262,UB-000119,58,1,573.73,0.0,573.73,356.56,C00867,2024-08-23,Completed,Web,Islamabad,BlueLine,Wallet,FREESHIP,4,Coffee 1,Beverages
+263,UB-000120,61,1,1065.9,0.0,1065.9,828.14,C01412,2024-06-24,Completed,Mobile App,Lahore,RapidGo,Cash on Delivery,,4,Orange Juice 2,Beverages
+264,UB-000120,74,2,1115.54,5.0,2119.53,1765.78,C01412,2024-06-24,Completed,Mobile App,Lahore,RapidGo,Cash on Delivery,,5,Cooking Oil 1,Pantry
+265,UB-000121,66,1,935.14,5.0,888.38,716.35,C01420,2025-09-21,Completed,Mobile App,Lahore,SwiftEx,Cash on Delivery,SAVE15,4,Mango Drink 2,Beverages
+266,UB-000122,39,1,865.46,0.0,865.46,614.07,C01412,2025-11-17,Completed,Mobile App,Lahore,BlueLine,Card,,3,Croissants 1,Bakery
+267,UB-000122,82,1,1022.48,0.0,1022.48,685.33,C01412,2025-11-17,Completed,Mobile App,Lahore,BlueLine,Card,,5,Sugar 2,Pantry
+268,UB-000123,13,1,373.56,0.0,373.56,235.91,C01290,2024-11-18,Completed,Marketplace,Rawalpindi,BlueLine,Card,,1,Apples 3,Fresh Produce
+269,UB-000123,100,1,205.02,0.0,205.02,158.88,C01290,2024-11-18,Completed,Marketplace,Rawalpindi,BlueLine,Card,,6,Popcorn 2,Snacks
+270,UB-000123,54,1,1037.17,0.0,1037.17,807.18,C01290,2024-11-18,Completed,Marketplace,Rawalpindi,BlueLine,Card,,3,Cookies 3,Bakery
+271,UB-000124,136,1,1357.31,10.0,1221.58,866.98,C01571,2024-11-15,Completed,Mobile App,Islamabad,Store Pickup,Bank Transfer,,8,Face Wash 2,Personal Care
+272,UB-000124,28,1,890.59,0.0,890.59,673.25,C01571,2024-11-15,Completed,Mobile App,Islamabad,Store Pickup,Bank Transfer,,2,Butter 2,Dairy & Eggs
+273,UB-000124,85,1,322.97,0.0,322.97,232.68,C01571,2024-11-15,Completed,Mobile App,Islamabad,Store Pickup,Bank Transfer,,5,Basmati Rice 3,Pantry
+274,UB-000125,84,2,1274.04,0.0,2548.08,1624.24,C00968,2025-06-11,Returned,Mobile App,Karachi,SwiftEx,Cash on Delivery,SAVE15,5,Spices 2,Pantry
+275,UB-000125,16,4,1072.56,5.0,4075.73,3265.52,C00968,2025-06-11,Returned,Mobile App,Karachi,SwiftEx,Cash on Delivery,SAVE15,1,Potatoes 3,Fresh Produce
+276,UB-000125,28,1,880.14,0.0,880.14,673.25,C00968,2025-06-11,Returned,Mobile App,Karachi,SwiftEx,Cash on Delivery,SAVE15,2,Butter 2,Dairy & Eggs
+277,UB-000125,138,1,921.09,15.0,782.93,604.6,C00968,2025-06-11,Returned,Mobile App,Karachi,SwiftEx,Cash on Delivery,SAVE15,8,Lotion 2,Personal Care
+278,UB-000126,66,1,977.34,15.0,830.74,716.35,C00068,2025-03-28,Completed,Web,Islamabad,SwiftEx,Card,APP5,4,Mango Drink 2,Beverages
+279,UB-000126,129,3,1217.08,0.0,3651.24,2300.55,C00068,2025-03-28,Completed,Web,Islamabad,SwiftEx,Card,APP5,8,Toothpaste 1,Personal Care
+280,UB-000126,54,1,1053.94,5.0,1001.24,807.18,C00068,2025-03-28,Completed,Web,Islamabad,SwiftEx,Card,APP5,3,Cookies 3,Bakery
+281,UB-000126,119,4,576.81,0.0,2307.24,1910.0,C00068,2025-03-28,Completed,Web,Islamabad,SwiftEx,Card,APP5,7,Floor Cleaner 2,Household
+282,UB-000127,116,3,750.62,0.0,2251.86,1495.68,C01415,2024-06-11,Completed,Web,Lahore,SwiftEx,Cash on Delivery,,7,Laundry Powder 2,Household
+283,UB-000127,122,2,640.14,15.0,1088.24,1016.04,C01415,2024-06-11,Completed,Web,Lahore,SwiftEx,Cash on Delivery,,7,Laundry Powder 3,Household
+284,UB-000128,96,1,515.97,0.0,515.97,367.22,C00287,2024-03-04,Completed,Web,Faisalabad,BlueLine,Wallet,,6,Granola Bars 1,Snacks
+285,UB-000128,110,2,940.9,0.0,1881.8,1358.68,C00287,2024-03-04,Completed,Web,Faisalabad,BlueLine,Wallet,,7,Laundry Powder 1,Household
+286,UB-000129,20,1,971.25,5.0,922.69,674.24,C01243,2025-12-26,Completed,Web,Islamabad,SwiftEx,Cash on Delivery,FREESHIP,2,Yogurt 1,Dairy & Eggs
+287,UB-000129,118,1,630.09,20.0,504.07,421.79,C01243,2025-12-26,Completed,Web,Islamabad,SwiftEx,Cash on Delivery,FREESHIP,7,Trash Bags 2,Household
+288,UB-000129,45,1,818.03,0.0,818.03,610.87,C01243,2025-12-26,Completed,Web,Islamabad,SwiftEx,Cash on Delivery,FREESHIP,3,Croissants 2,Bakery
+289,UB-000130,27,3,1091.43,5.0,3110.58,2674.14,C00571,2024-08-27,Completed,Marketplace,Islamabad,BlueLine,Card,,2,Cheddar Cheese 2,Dairy & Eggs
+290,UB-000130,131,1,902.15,10.0,811.94,688.03,C00571,2024-08-27,Completed,Marketplace,Islamabad,BlueLine,Card,,8,Hand Wash 1,Personal Care
+291,UB-000130,74,1,1153.55,5.0,1095.87,882.89,C00571,2024-08-27,Completed,Marketplace,Islamabad,BlueLine,Card,,5,Cooking Oil 1,Pantry
+292,UB-000130,44,1,768.01,0.0,768.01,587.81,C00571,2024-08-27,Completed,Marketplace,Islamabad,BlueLine,Card,,3,Brown Bread 2,Bakery
+293,UB-000131,107,2,325.8,5.0,619.02,456.9,C00257,2025-09-14,Completed,Mobile App,Lahore,BlueLine,Card,APP5,6,Crackers 3,Snacks
+294,UB-000131,56,2,523.85,0.0,1047.7,697.56,C00257,2025-09-14,Completed,Mobile App,Lahore,BlueLine,Card,APP5,4,Mineral Water 1,Beverages
+295,UB-000132,8,1,366.2,0.0,366.2,293.44,C01080,2024-03-18,Completed,Web,Faisalabad,SwiftEx,Wallet,,1,Bananas 2,Fresh Produce
+296,UB-000133,27,2,1099.6,10.0,1979.28,1782.76,C01306,2025-03-14,Completed,Mobile App,Rawalpindi,RapidGo,Cash on Delivery,,2,Cheddar Cheese 2,Dairy & Eggs
+297,UB-000133,112,2,467.79,10.0,842.02,676.08,C01306,2025-03-14,Completed,Mobile App,Rawalpindi,RapidGo,Cash on Delivery,,7,Trash Bags 1,Household
+298,UB-000133,79,2,765.6,0.0,1531.2,957.76,C01306,2025-03-14,Completed,Mobile App,Rawalpindi,RapidGo,Cash on Delivery,,5,Basmati Rice 2,Pantry
+299,UB-000133,45,1,826.11,0.0,826.11,610.87,C01306,2025-03-14,Completed,Mobile App,Rawalpindi,RapidGo,Cash on Delivery,,3,Croissants 2,Bakery
+300,UB-000134,67,3,154.0,15.0,392.7,288.6,C01412,2025-06-11,Completed,Web,Lahore,RapidGo,Cash on Delivery,FREESHIP,4,Orange Juice 3,Beverages

@@ -1,0 +1,10 @@
+check,value
+raw_order_rows,9004
+clean_orders,9000
+duplicate_order_ids_removed,4
+customer_city_values_standardised,48
+shipping_city_values_standardised,287
+invalid_quantity_rows_excluded,6
+line_revenue_rounding_rows_recalculated,191
+clean_order_items,20124
+revenue_formula_mismatches,0
