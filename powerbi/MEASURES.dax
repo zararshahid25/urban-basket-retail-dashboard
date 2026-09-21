@@ -1,0 +1,36 @@
+// Create one measure at a time when rebuilding manually.
+// Currency measures are PKR. See docs/KPI_DEFINITIONS.md.
+
+Net Sales = SUM(FactSales[net_revenue])
+
+Gross Profit = SUM(FactSales[gross_profit])
+
+Gross Margin = DIVIDE([Gross Profit], [Net Sales])
+
+Orders = DISTINCTCOUNT(FactSales[order_id])
+
+Completed Orders = CALCULATE([Orders], KEEPFILTERS(FactSales[order_status] = "Completed"))
+
+Returned Orders = CALCULATE([Orders], KEEPFILTERS(FactSales[order_status] = "Returned"))
+
+Cancelled Orders = CALCULATE([Orders], KEEPFILTERS(FactSales[order_status] = "Cancelled"))
+
+Completed Sales = CALCULATE(SUM(FactSales[line_revenue]), KEEPFILTERS(FactSales[order_status] = "Completed"))
+
+Returned Value = CALCULATE(SUM(FactSales[line_revenue]), KEEPFILTERS(FactSales[order_status] = "Returned"))
+
+Completed AOV = DIVIDE([Completed Sales], [Completed Orders])
+
+Return Rate = DIVIDE([Returned Orders], [Completed Orders] + [Returned Orders])
+
+Net Units = SUM(FactSales[net_units])
+
+Category Sales Share = DIVIDE([Net Sales], CALCULATE([Net Sales], ALLSELECTED(DimProducts[category_name])))
+
+Prior Month Sales = VAR MonthStart = SELECTEDVALUE(DimDate[month]) RETURN IF(NOT ISBLANK(MonthStart), CALCULATE([Net Sales], REMOVEFILTERS(DimDate), DimDate[month] = EDATE(MonthStart,-1)))
+
+Sales MoM Change = IF(NOT ISBLANK([Prior Month Sales]), DIVIDE([Net Sales] - [Prior Month Sales], [Prior Month Sales]))
+
+Prior Year Sales = VAR MonthStart = SELECTEDVALUE(DimDate[month]) RETURN IF(NOT ISBLANK(MonthStart), CALCULATE([Net Sales], REMOVEFILTERS(DimDate), DimDate[month] = EDATE(MonthStart,-12)))
+
+Sales YoY Change = IF(NOT ISBLANK([Prior Year Sales]), DIVIDE([Net Sales] - [Prior Year Sales], [Prior Year Sales]))

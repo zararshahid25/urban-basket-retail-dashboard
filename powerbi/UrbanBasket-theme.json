@@ -1,0 +1,13 @@
+{
+  "name": "Urban Basket Retail",
+  "dataColors": [
+    "#195A43",
+    "#CF913C",
+    "#629B80",
+    "#BF6259",
+    "#6F8590"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#173B30",
+  "tableAccent": "#195A43"
+}

@@ -1,0 +1,145 @@
+product_id,category_id,product_name,brand,unit_cost,list_price,active_flag,category_name
+1,1,Apples 1,Daily Best,210.31,307.38,True,Fresh Produce
+2,1,Bananas 1,Daily Best,371.22,496.01,True,Fresh Produce
+3,1,Tomatoes 1,Home Select,724.04,1142.73,True,Fresh Produce
+4,1,Potatoes 1,Urban Choice,608.34,797.69,True,Fresh Produce
+5,1,Onions 1,Daily Best,872.25,1382.28,True,Fresh Produce
+6,1,Spinach 1,Home Select,692.29,973.82,True,Fresh Produce
+7,1,Apples 2,Daily Best,753.75,1038.13,True,Fresh Produce
+8,1,Bananas 2,Daily Best,293.44,375.48,True,Fresh Produce
+9,1,Tomatoes 2,Daily Best,501.69,687.12,True,Fresh Produce
+10,1,Potatoes 2,Home Select,70.79,97.48,True,Fresh Produce
+11,1,Onions 2,Daily Best,366.75,464.3,True,Fresh Produce
+12,1,Spinach 2,Home Select,425.66,558.46,True,Fresh Produce
+13,1,Apples 3,Value Mart,235.91,369.16,True,Fresh Produce
+14,1,Bananas 3,Value Mart,569.64,758.67,True,Fresh Produce
+15,1,Tomatoes 3,Home Select,855.33,1221.31,True,Fresh Produce
+16,1,Potatoes 3,Daily Best,816.38,1078.04,True,Fresh Produce
+17,1,Onions 3,Urban Choice,644.64,849.69,True,Fresh Produce
+18,1,Spinach 3,Daily Best,648.71,830.53,True,Fresh Produce
+19,2,Fresh Milk 1,Home Select,474.21,680.59,True,Dairy & Eggs
+20,2,Yogurt 1,Urban Choice,674.24,958.32,True,Dairy & Eggs
+21,2,Cheddar Cheese 1,Daily Best,582.06,782.14,True,Dairy & Eggs
+22,2,Butter 1,Daily Best,475.66,659.64,True,Dairy & Eggs
+23,2,Eggs 1,Value Mart,627.54,899.87,True,Dairy & Eggs
+24,2,Cream 1,Daily Best,61.51,94.07,True,Dairy & Eggs
+25,2,Fresh Milk 2,Home Select,496.28,656.92,True,Dairy & Eggs
+26,2,Yogurt 2,Daily Best,138.49,218.55,True,Dairy & Eggs
+27,2,Cheddar Cheese 2,Daily Best,891.38,1074.86,True,Dairy & Eggs
+28,2,Butter 2,Daily Best,673.25,887.52,True,Dairy & Eggs
+29,2,Eggs 2,Urban Choice,536.32,731.16,True,Dairy & Eggs
+30,2,Cream 2,Value Mart,865.11,1359.0,True,Dairy & Eggs
+31,2,Fresh Milk 3,Urban Choice,581.59,727.29,True,Dairy & Eggs
+32,2,Yogurt 3,Value Mart,79.85,104.68,True,Dairy & Eggs
+33,2,Cheddar Cheese 3,Urban Choice,296.56,437.6,True,Dairy & Eggs
+34,2,Butter 3,Daily Best,138.03,163.66,True,Dairy & Eggs
+35,2,Eggs 3,Home Select,567.63,792.55,True,Dairy & Eggs
+36,2,Cream 3,Home Select,533.78,839.0,True,Dairy & Eggs
+37,3,White Bread 1,Daily Best,831.45,1049.98,True,Bakery
+38,3,Brown Bread 1,Value Mart,721.69,1054.51,True,Bakery
+39,3,Croissants 1,Value Mart,614.07,872.14,True,Bakery
+40,3,Cupcakes 1,Value Mart,255.94,369.5,True,Bakery
+41,3,Burger Buns 1,Value Mart,743.96,921.99,True,Bakery
+42,3,Cookies 1,Home Select,398.38,604.36,True,Bakery
+43,3,White Bread 2,Home Select,116.88,169.13,True,Bakery
+44,3,Brown Bread 2,Value Mart,587.81,776.73,True,Bakery
+45,3,Croissants 2,Home Select,610.87,811.72,True,Bakery
+46,3,Cupcakes 2,Home Select,167.81,218.69,True,Bakery
+47,3,Burger Buns 2,Value Mart,87.48,106.46,True,Bakery
+48,3,Cookies 2,Home Select,254.63,358.28,True,Bakery
+49,3,White Bread 3,Home Select,614.04,962.64,True,Bakery
+50,3,Brown Bread 3,Daily Best,327.69,431.9,True,Bakery
+51,3,Croissants 3,Daily Best,158.99,234.0,True,Bakery
+52,3,Cupcakes 3,Value Mart,457.32,651.98,True,Bakery
+53,3,Burger Buns 3,Home Select,865.12,1286.89,True,Bakery
+54,3,Cookies 3,Home Select,807.18,1029.11,True,Bakery
+55,4,Orange Juice 1,Value Mart,606.14,906.58,True,Beverages
+56,4,Mineral Water 1,Value Mart,348.78,517.27,True,Beverages
+57,4,Green Tea 1,Urban Choice,567.7,772.14,True,Beverages
+58,4,Coffee 1,Urban Choice,356.56,571.9,True,Beverages
+59,4,Cola 1,Home Select,241.88,297.51,True,Beverages
+60,4,Mango Drink 1,Daily Best,144.82,187.91,True,Beverages
+61,4,Orange Juice 2,Urban Choice,828.14,1093.36,True,Beverages
+62,4,Mineral Water 2,Home Select,260.55,384.03,True,Beverages
+63,4,Green Tea 2,Daily Best,167.23,255.45,True,Beverages
+64,4,Coffee 2,Daily Best,214.27,324.33,True,Beverages
+65,4,Cola 2,Urban Choice,525.6,721.54,True,Beverages
+66,4,Mango Drink 2,Urban Choice,716.35,960.43,True,Beverages
+67,4,Orange Juice 3,Home Select,96.2,154.38,True,Beverages
+68,4,Mineral Water 3,Urban Choice,161.19,223.24,True,Beverages
+69,4,Green Tea 3,Daily Best,234.6,311.42,True,Beverages
+70,4,Coffee 3,Home Select,864.59,1376.41,True,Beverages
+71,4,Cola 3,Daily Best,122.07,189.87,True,Beverages
+72,4,Mango Drink 3,Urban Choice,741.6,971.79,True,Beverages
+73,5,Basmati Rice 1,Urban Choice,662.98,992.0,True,Pantry
+74,5,Cooking Oil 1,Value Mart,882.89,1148.83,True,Pantry
+75,5,Flour 1,Home Select,587.78,884.77,True,Pantry
+76,5,Sugar 1,Urban Choice,616.89,815.2,True,Pantry
+77,5,Lentils 1,Urban Choice,195.63,278.14,True,Pantry
+78,5,Spices 1,Daily Best,544.75,796.67,True,Pantry
+79,5,Basmati Rice 2,Home Select,478.88,755.8,True,Pantry
+80,5,Cooking Oil 2,Urban Choice,302.58,404.47,True,Pantry
+81,5,Flour 2,Urban Choice,710.48,1042.22,True,Pantry
+82,5,Sugar 2,Urban Choice,685.33,1041.34,True,Pantry
+83,5,Lentils 2,Daily Best,707.0,858.64,True,Pantry
+84,5,Spices 2,Urban Choice,812.12,1272.55,True,Pantry
+85,5,Basmati Rice 3,Urban Choice,232.68,331.01,True,Pantry
+86,5,Cooking Oil 3,Daily Best,409.68,487.2,True,Pantry
+87,5,Flour 3,Daily Best,296.68,385.42,True,Pantry
+88,5,Sugar 3,Value Mart,553.89,696.85,True,Pantry
+89,5,Lentils 3,Urban Choice,419.15,585.51,True,Pantry
+90,5,Spices 3,Home Select,507.26,692.53,True,Pantry
+91,6,Potato Chips 1,Urban Choice,321.07,460.09,True,Snacks
+92,6,Mixed Nuts 1,Value Mart,524.51,823.63,True,Snacks
+93,6,Chocolate 1,Value Mart,72.83,92.45,True,Snacks
+94,6,Popcorn 1,Value Mart,538.36,750.76,True,Snacks
+95,6,Crackers 1,Home Select,369.8,484.41,True,Snacks
+96,6,Granola Bars 1,Home Select,367.22,503.64,True,Snacks
+97,6,Potato Chips 2,Value Mart,712.55,1137.46,True,Snacks
+98,6,Mixed Nuts 2,Value Mart,467.33,579.86,True,Snacks
+99,6,Chocolate 2,Daily Best,80.94,113.13,True,Snacks
+100,6,Popcorn 2,Urban Choice,158.88,203.9,True,Snacks
+101,6,Crackers 2,Daily Best,893.27,1117.82,True,Snacks
+102,6,Granola Bars 2,Urban Choice,829.38,1205.68,True,Snacks
+103,6,Potato Chips 3,Urban Choice,681.52,910.57,True,Snacks
+104,6,Mixed Nuts 3,Value Mart,879.92,1254.52,True,Snacks
+105,6,Chocolate 3,Urban Choice,888.95,1246.8,True,Snacks
+106,6,Popcorn 3,Daily Best,719.76,1053.35,True,Snacks
+107,6,Crackers 3,Urban Choice,228.45,321.33,True,Snacks
+108,6,Granola Bars 3,Urban Choice,795.55,1128.63,True,Snacks
+109,7,Dish Soap 1,Home Select,98.8,157.35,True,Household
+110,7,Laundry Powder 1,Value Mart,679.34,930.55,True,Household
+111,7,Tissues 1,Home Select,556.79,659.52,True,Household
+112,7,Trash Bags 1,Urban Choice,338.04,460.06,True,Household
+113,7,Floor Cleaner 1,Daily Best,695.0,872.31,True,Household
+114,7,Foil 1,Urban Choice,645.87,1014.49,True,Household
+115,7,Dish Soap 2,Daily Best,798.92,1203.53,True,Household
+116,7,Laundry Powder 2,Value Mart,498.56,758.19,True,Household
+117,7,Tissues 2,Daily Best,410.43,548.1,True,Household
+118,7,Trash Bags 2,Value Mart,421.79,636.25,True,Household
+119,7,Floor Cleaner 2,Daily Best,477.5,587.03,True,Household
+120,7,Foil 2,Urban Choice,488.5,728.54,True,Household
+121,7,Dish Soap 3,Value Mart,683.69,907.74,True,Household
+122,7,Laundry Powder 3,Urban Choice,508.02,641.84,True,Household
+123,7,Tissues 3,Home Select,328.9,470.08,True,Household
+124,7,Trash Bags 3,Daily Best,445.56,535.65,True,Household
+125,7,Floor Cleaner 3,Value Mart,213.73,331.37,True,Household
+126,7,Foil 3,Home Select,803.5,1251.22,True,Household
+127,8,Shampoo 1,Value Mart,222.26,301.35,True,Personal Care
+128,8,Soap 1,Home Select,141.91,172.78,True,Personal Care
+129,8,Toothpaste 1,Daily Best,766.85,1183.83,True,Personal Care
+130,8,Face Wash 1,Daily Best,653.53,920.1,True,Personal Care
+131,8,Hand Wash 1,Home Select,688.03,907.29,True,Personal Care
+132,8,Lotion 1,Daily Best,810.08,1246.98,True,Personal Care
+133,8,Shampoo 2,Daily Best,320.37,502.33,True,Personal Care
+134,8,Soap 2,Daily Best,633.2,945.41,True,Personal Care
+135,8,Toothpaste 2,Value Mart,397.42,613.59,True,Personal Care
+136,8,Face Wash 2,Daily Best,866.98,1380.36,True,Personal Care
+137,8,Hand Wash 2,Value Mart,816.22,1289.36,True,Personal Care
+138,8,Lotion 2,Urban Choice,604.6,910.58,True,Personal Care
+139,8,Shampoo 3,Home Select,504.16,712.31,True,Personal Care
+140,8,Soap 3,Urban Choice,195.06,297.38,True,Personal Care
+141,8,Toothpaste 3,Urban Choice,185.67,278.58,True,Personal Care
+142,8,Face Wash 3,Urban Choice,406.29,483.71,True,Personal Care
+143,8,Hand Wash 3,Daily Best,614.71,804.58,True,Personal Care
+144,8,Lotion 3,Daily Best,300.62,422.95,True,Personal Care

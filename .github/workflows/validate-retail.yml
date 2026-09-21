@@ -1,0 +1,26 @@
+name: Validate PostgreSQL retail reporting
+on: [push, workflow_dispatch]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: ephemeral_ci_only
+          POSTGRES_DB: urban_basket
+        ports: ["5432:5432"]
+        options: --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PGHOST: localhost
+      PGUSER: postgres
+      PGPASSWORD: ephemeral_ci_only
+      PGDATABASE: urban_basket
+    steps:
+      - uses: actions/checkout@v4
+      - name: Load and reconcile every accepted sales row
+        run: psql -f sql/run_all.psql
+      - name: Verify repeatable reload
+        run: psql -f sql/run_all.psql
+      - name: Run nine analytical questions
+        run: psql -v ON_ERROR_STOP=1 -f sql/04_questions.sql

@@ -1,11 +1,5 @@
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.venv/
-venv/
+.pbi/
+*.pbix
+*.tmp
+~$*
 .env
-.DS_Store
-.streamlit/secrets.toml
-data/raw/*.csv
-data/processed/*.csv
-

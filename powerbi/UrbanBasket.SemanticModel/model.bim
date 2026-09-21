@@ -1,0 +1,469 @@
+{
+  "name": "UrbanBasket",
+  "compatibilityLevel": 1600,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Server",
+        "kind": "m",
+        "expression": "\"localhost:5432\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]"
+      },
+      {
+        "name": "Database",
+        "kind": "m",
+        "expression": "\"urban_basket\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]"
+      }
+    ],
+    "tables": [
+      {
+        "name": "FactSales",
+        "columns": [
+          {
+            "name": "order_item_id",
+            "dataType": "int64",
+            "sourceColumn": "order_item_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order_id",
+            "dataType": "string",
+            "sourceColumn": "order_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order_date",
+            "dataType": "dateTime",
+            "sourceColumn": "order_date",
+            "summarizeBy": "none",
+            "formatString": "dd/MM/yyyy"
+          },
+          {
+            "name": "order_month",
+            "dataType": "dateTime",
+            "sourceColumn": "order_month",
+            "summarizeBy": "none",
+            "formatString": "dd/MM/yyyy"
+          },
+          {
+            "name": "customer_id",
+            "dataType": "string",
+            "sourceColumn": "customer_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_id",
+            "dataType": "int64",
+            "sourceColumn": "product_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order_status",
+            "dataType": "string",
+            "sourceColumn": "order_status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sales_channel",
+            "dataType": "string",
+            "sourceColumn": "sales_channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "shipping_city",
+            "dataType": "string",
+            "sourceColumn": "shipping_city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "customer_segment",
+            "dataType": "string",
+            "sourceColumn": "customer_segment",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "product_name",
+            "dataType": "string",
+            "sourceColumn": "product_name",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "category_name",
+            "dataType": "string",
+            "sourceColumn": "category_name",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "quantity",
+            "dataType": "int64",
+            "sourceColumn": "quantity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "unit_price",
+            "dataType": "decimal",
+            "sourceColumn": "unit_price",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "discount_pct",
+            "dataType": "decimal",
+            "sourceColumn": "discount_pct",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "unit_cost",
+            "dataType": "decimal",
+            "sourceColumn": "unit_cost",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "line_revenue",
+            "dataType": "decimal",
+            "sourceColumn": "line_revenue",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "line_cost",
+            "dataType": "decimal",
+            "sourceColumn": "line_cost",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "net_revenue",
+            "dataType": "decimal",
+            "sourceColumn": "net_revenue",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gross_profit",
+            "dataType": "decimal",
+            "sourceColumn": "gross_profit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "net_units",
+            "dataType": "int64",
+            "sourceColumn": "net_units",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "FactSales",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema=\"retail\", Item=\"sales_enriched\"]}[Data],",
+                "    Typed = Table.TransformColumnTypes(Data, {{\"order_date\", type date}, {\"order_month\", type date}})",
+                "in",
+                "    Typed",
+                ""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Net Sales",
+            "expression": "SUM(FactSales[net_revenue])",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Gross Profit",
+            "expression": "SUM(FactSales[gross_profit])",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Gross Margin",
+            "expression": "DIVIDE([Gross Profit], [Net Sales])",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Orders",
+            "expression": "DISTINCTCOUNT(FactSales[order_id])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Completed Orders",
+            "expression": "CALCULATE([Orders], KEEPFILTERS(FactSales[order_status] = \"Completed\"))",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Returned Orders",
+            "expression": "CALCULATE([Orders], KEEPFILTERS(FactSales[order_status] = \"Returned\"))",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Cancelled Orders",
+            "expression": "CALCULATE([Orders], KEEPFILTERS(FactSales[order_status] = \"Cancelled\"))",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Completed Sales",
+            "expression": "CALCULATE(SUM(FactSales[line_revenue]), KEEPFILTERS(FactSales[order_status] = \"Completed\"))",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Returned Value",
+            "expression": "CALCULATE(SUM(FactSales[line_revenue]), KEEPFILTERS(FactSales[order_status] = \"Returned\"))",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Completed AOV",
+            "expression": "DIVIDE([Completed Sales], [Completed Orders])",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Return Rate",
+            "expression": "DIVIDE([Returned Orders], [Completed Orders] + [Returned Orders])",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Net Units",
+            "expression": "SUM(FactSales[net_units])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Category Sales Share",
+            "expression": "DIVIDE([Net Sales], CALCULATE([Net Sales], ALLSELECTED(DimProducts[category_name])))",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Prior Month Sales",
+            "expression": "VAR MonthStart = SELECTEDVALUE(DimDate[month]) RETURN IF(NOT ISBLANK(MonthStart), CALCULATE([Net Sales], REMOVEFILTERS(DimDate), DimDate[month] = EDATE(MonthStart,-1)))",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Sales MoM Change",
+            "expression": "IF(NOT ISBLANK([Prior Month Sales]), DIVIDE([Net Sales] - [Prior Month Sales], [Prior Month Sales]))",
+            "formatString": "+0.0%;-0.0%;0.0%"
+          },
+          {
+            "name": "Prior Year Sales",
+            "expression": "VAR MonthStart = SELECTEDVALUE(DimDate[month]) RETURN IF(NOT ISBLANK(MonthStart), CALCULATE([Net Sales], REMOVEFILTERS(DimDate), DimDate[month] = EDATE(MonthStart,-12)))",
+            "formatString": "#,0.00"
+          },
+          {
+            "name": "Sales YoY Change",
+            "expression": "IF(NOT ISBLANK([Prior Year Sales]), DIVIDE([Net Sales] - [Prior Year Sales], [Prior Year Sales]))",
+            "formatString": "+0.0%;-0.0%;0.0%"
+          }
+        ]
+      },
+      {
+        "name": "DimProducts",
+        "columns": [
+          {
+            "name": "product_id",
+            "dataType": "int64",
+            "sourceColumn": "product_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category_id",
+            "dataType": "int64",
+            "sourceColumn": "category_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_name",
+            "dataType": "string",
+            "sourceColumn": "product_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "brand",
+            "dataType": "string",
+            "sourceColumn": "brand",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "unit_cost",
+            "dataType": "decimal",
+            "sourceColumn": "unit_cost",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "list_price",
+            "dataType": "decimal",
+            "sourceColumn": "list_price",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "active_flag",
+            "dataType": "boolean",
+            "sourceColumn": "active_flag",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category_name",
+            "dataType": "string",
+            "sourceColumn": "category_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimProducts",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema=\"retail\", Item=\"dim_products\"]}[Data]",
+                "in",
+                "    Data",
+                ""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimCustomers",
+        "columns": [
+          {
+            "name": "customer_id",
+            "dataType": "string",
+            "sourceColumn": "customer_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "customer_segment",
+            "dataType": "string",
+            "sourceColumn": "customer_segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "city",
+            "dataType": "string",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "signup_date",
+            "dataType": "dateTime",
+            "sourceColumn": "signup_date",
+            "summarizeBy": "none",
+            "formatString": "dd/MM/yyyy"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimCustomers",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema=\"retail\", Item=\"customers\"]}[Data],",
+                "    Typed = Table.TransformColumnTypes(Data, {{\"signup_date\", type date}})",
+                "in",
+                "    Typed",
+                ""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "DimDate",
+        "columns": [
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date",
+            "summarizeBy": "none",
+            "formatString": "dd/MM/yyyy"
+          },
+          {
+            "name": "month",
+            "dataType": "dateTime",
+            "sourceColumn": "month",
+            "summarizeBy": "none",
+            "formatString": "dd/MM/yyyy"
+          },
+          {
+            "name": "year_month",
+            "dataType": "string",
+            "sourceColumn": "year_month",
+            "summarizeBy": "none",
+            "sortByColumn": "month"
+          },
+          {
+            "name": "month_number",
+            "dataType": "int64",
+            "sourceColumn": "month_number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DimDate",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema=\"retail\", Item=\"dim_date\"]}[Data],",
+                "    Typed = Table.TransformColumnTypes(Data, {{\"date\", type date}, {\"month\", type date}})",
+                "in",
+                "    Typed",
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "relationship_0",
+        "fromTable": "FactSales",
+        "fromColumn": "product_id",
+        "toTable": "DimProducts",
+        "toColumn": "product_id",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "relationship_1",
+        "fromTable": "FactSales",
+        "fromColumn": "customer_id",
+        "toTable": "DimCustomers",
+        "toColumn": "customer_id",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "relationship_2",
+        "fromTable": "FactSales",
+        "fromColumn": "order_date",
+        "toTable": "DimDate",
+        "toColumn": "date",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      }
+    ]
+  }
+}

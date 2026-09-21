@@ -1,0 +1,6 @@
+\set ON_ERROR_STOP on
+\copy (SELECT * FROM retail.sales_enriched ORDER BY order_item_id) TO 'data/reference/sales_enriched.csv' WITH(FORMAT csv,HEADER true)
+\copy (SELECT * FROM retail.orders ORDER BY order_id) TO 'data/reference/orders.csv' WITH(FORMAT csv,HEADER true)
+\copy (SELECT * FROM retail.customers ORDER BY customer_id) TO 'data/reference/customers.csv' WITH(FORMAT csv,HEADER true)
+\copy (SELECT * FROM retail.order_items ORDER BY order_item_id) TO 'data/reference/order_items.csv' WITH(FORMAT csv,HEADER true)
+\copy (SELECT * FROM retail.dim_products ORDER BY product_id) TO 'data/reference/products.csv' WITH(FORMAT csv,HEADER true)

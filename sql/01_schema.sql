@@ -1,3 +1,5 @@
+CREATE SCHEMA IF NOT EXISTS retail;
+SET search_path=retail,public;
 BEGIN;
 
 CREATE TABLE IF NOT EXISTS categories (
@@ -48,4 +50,3 @@ CREATE TABLE IF NOT EXISTS order_items (
 );
 
 COMMIT;
-

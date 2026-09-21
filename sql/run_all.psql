@@ -1,0 +1,15 @@
+\set ON_ERROR_STOP on
+\i sql/00_staging.sql
+\i sql/01_schema.sql
+BEGIN;
+TRUNCATE retail.raw_orders RESTART IDENTITY;
+TRUNCATE retail.raw_customers,retail.raw_items,retail.order_items,retail.orders,retail.customers,retail.products,retail.categories;
+\copy retail.categories FROM 'data/raw/categories.csv' WITH(FORMAT csv,HEADER true)
+\copy retail.products FROM 'data/raw/products.csv' WITH(FORMAT csv,HEADER true)
+\copy retail.raw_customers FROM 'data/raw/customers_raw.csv' WITH(FORMAT csv,HEADER true)
+\copy retail.raw_orders(order_id,customer_id,order_date,order_status,sales_channel,shipping_city,courier_name,payment_method,promo_code) FROM 'data/raw/orders_raw.csv' WITH(FORMAT csv,HEADER true)
+\copy retail.raw_items FROM 'data/raw/order_items_raw.csv' WITH(FORMAT csv,HEADER true)
+COMMIT;
+\i sql/02_transform.sql
+\i sql/03_reporting.sql
+\i sql/05_validate.sql

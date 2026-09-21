@@ -1,0 +1,7 @@
+[
+  "tests/test_project.py::test_clean_data_keys_quantities_and_revenue_formula",
+  "tests/test_project.py::test_dashboard_loads_and_category_filter_updates_results",
+  "tests/test_project.py::test_kpis_reconcile_to_signed_line_values",
+  "tests/test_project.py::test_postgres_sql_files_parse_in_postgres_dialect",
+  "tests/test_project.py::test_schema_accepts_processed_tables_in_relational_order"
+]
